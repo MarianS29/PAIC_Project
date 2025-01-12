@@ -9,35 +9,37 @@ It eliminated 2 types of noise: gaussian and impulsive (salt & pepper)
 -> self-weighted - to preserve image details while eliminating unwanted noise
 
 Results are tested with MSE/NMSE/PSNR for more images with more noise types.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
 -> proiect PAIC ----------------- Deadine: 21 ianuarie 23:59 (tema 24)
 
 -> implementarea + testarea unui algoritm de fitrare de zgomot pe imagini color
