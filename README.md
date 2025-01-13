@@ -3,9 +3,13 @@ Script that eliminates noise from infrared images.
 It eliminated 2 types of noise: gaussian and impulsive (salt & pepper)
 
 -> It uses 3x3 window to determine which category is the center pixel (gaussian noise, impulsive noise or detail point)
+
 -> If it's gaussian noise point => apply a self-weighted mean filter
+
 -> If it's impulsive noise point => apply a self-weighted median filter
+
 -> If it's detail point it stays the same
+
 -> self-weighted - to preserve image details while eliminating unwanted noise
 
 Results are tested with MSE/NMSE/PSNR for more images with more noise types.
@@ -16,7 +20,9 @@ Results are tested with MSE/NMSE/PSNR for more images with more noise types.
 -> proiect PAIC ----------------- Deadine: 21 ianuarie 23:59 (tema 24)
 
 -> implementarea + testarea unui algoritm de fitrare de zgomot pe imagini color
+
 -> articol cu imagini grayscale -> extindere pe color prin aplicare pe fiecare plan RGB
+
 -> rezultate:
 	-> reducere de zgomot pt imagini cu continut diferit
 	-> mai multe tipuri de zgomot
